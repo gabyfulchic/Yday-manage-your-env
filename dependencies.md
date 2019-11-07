@@ -1,7 +1,7 @@
 # List my dependencies needed on every laptop. ✍️
 ## Searched from my actual Centos7 Env.  
   
-| Soft/Tool/Pkg | Dependencies | Versions | Details | Type |
+| Soft/Tool/Pkg | Conf files | Versions | Details | Type |
 | :--- | :---: | :---: | :---: | :---: |
 | **Vim** | $HOME/.vimrc | latest | My text editor. With my confs. (maccros, indentation). | Package | 
 | **Zsh** | $HOME/.zshrc | latest | My shell (aliases et ENV vars). | Package | 
@@ -22,8 +22,11 @@
 | **Python** | binary | 2.7.16 && 3.stable | Python interpreter and lib. | Packages |  
 | **Kubectl** | ~/.kube/config | 18.09.10 | Kubernetes cli to interact with K8s API. | Binary |  
 | **Ansible** | /etc/ansible.cfg | 2.8 | Ansible and ansible-playbook cmd. | Pypi package |  
-| **Ansible-lint** | binary |  | Ansible linter. | Pypi package |  
+| **Ipython** | binary |  | Powerful Interactive Python shell. | Pypi package |  
 | **Ansible-tower-cli**  | binary |  | CLI tool for Ansible Tower and AWX. | Pypi package |  
 | **Virtualenv**  | binary |  | A tool for creating isolated 'virtual' python environments. | Pypi package |  
 | **Virtualenvwrapper** | **To ADD** | latest | A wrapper for Virtualenv. | Pypi package |  
+| **Ansible-lint** | binary |  | Ansible linter. | Pypi package |  
+| **Rust** | export PATH=PATH:$HOME/.cargo/bin | > 1.17 | Rust compiler and Cargo package manager. | curl https://sh.rustup.rs -sSf && sh it |
+| **Exa** | Some aliases in {.zshrc} | > 0.9.0 | Modern ls and more User friendly. Written in Rust. | Cargo package |
 

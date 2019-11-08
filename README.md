@@ -31,9 +31,9 @@ sur Kube xD
 ## Make your env cross-platform
 
 - [x] Find what you need to keep (Docker cli, Kube cli, venv Pypi pkg ...)
-- [ ] Define conf files to store with chezmoi (dotfiles and .conf)
-- [ ] Define packages to install in f(x) of his type (Pypi package, System package, Cargo package ...)
-- [ ] Find how to deploy your env on any laptop easily (Ansible-Playbook, Makefile, Bash/Python script ....)
+- [x] Define conf files to store with chezmoi (dotfiles and .conf)
+- [x] Define packages to install in f(x) of his type (Pypi package, System package, Cargo package ...)
+- [x] Find how to deploy your env on any laptop easily (Ansible-Playbook, Makefile, Bash/Python script ....)
 - [ ] Make some POCs (Try with differents solutions to find bad and good things)
 - [ ] Develop/Archi to a turnkey solution
 - [ ] Template what you want to template

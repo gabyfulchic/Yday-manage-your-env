@@ -21,10 +21,11 @@
 | **Ipython** | binary |  | Powerful Interactive Python shell. | Pypi package |  
 | **Ansible-tower-cli**  | binary |  | CLI tool for Ansible Tower and AWX. | Pypi package |  
 | **Virtualenv**  | binary |  | A tool for creating isolated 'virtual' python environments. | Pypi package |  
-| **Virtualenvwrapper** | **To ADD** | latest | A wrapper for Virtualenv. | Pypi package |  
+| **Virtualenvwrapper** | $HOME/.virtualenvs/* or just in your $WORKON_HOME/* | latest | A wrapper for Virtualenv. | Pypi package |  
 | **Ansible-lint** | binary |  | Ansible linter. | Pypi package |  
 | **Docker** | /etc/docker/* && /etc/containerd | latest | Docker engine + cli. | Package |  
 | **Dive** | binary | latest | A tool for exploring docker images layers. | Package (from github) | 
+| **Chezmoi** | none | latest | A dotfiles manager accross multiples machines. | Binary | 
 | **Kubectl** | ~/.kube/config | 18.09.10 | Kubernetes cli to interact with K8s API. | Binary |  
 | **Kvm** | /etc/libvirt/* | latest | Kernel-based Virtual Machine. Free and opensource Hypervisor for Linux :D. Qemu = logiciel libre de machine virtuelle, KVM = hyperviseur / instance de QEMU, Libvirt = lib de gestion de la virtualisation utilisée par des hyperviseurs, Virt-manager = outil graphique pour gérer les machines virtuelles.) | Packages (qemu-kvm, libvirt, libguestfs-tools, libvirt-python, virt-install, virt-manager) |  
 | **Rust** | export PATH=PATH:$HOME/.cargo/bin | > 1.17 | Rust compiler and Cargo package manager. | curl https://sh.rustup.rs -sSf && sh it |
